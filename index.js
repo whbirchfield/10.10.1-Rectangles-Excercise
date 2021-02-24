@@ -1,16 +1,15 @@
 
 let lengthOfrectangle = Number(50);
 let heightOfrectangle = Number(7);
+let squareSides = Number(5)
 
 function makeLine (lengthOfrectangle){
 let rectangleLength = "";
-  for (i=0; i<lengthOfrectangle; i++){
+  for (let i=0; i<lengthOfrectangle; i++){
     rectangleLength += "#";
   }
   return rectangleLength;
 }
-
-console.log(makeRectangle(lengthOfrectangle,heightOfrectangle));
 
 function makeRectangle (width, height){
   let rectangle = "";
@@ -19,3 +18,14 @@ function makeRectangle (width, height){
   }
   return rectangle;
 }
+console.log(makeRectangle(lengthOfrectangle,heightOfrectangle));
+
+function makeSquare(sides){
+  let square = "";
+  for (let i = 0; i<sides; i++){
+    square += makeLine(sides) + "\n";
+  }
+  return square;
+}
+console.log(makeSquare(squareSides));
+
