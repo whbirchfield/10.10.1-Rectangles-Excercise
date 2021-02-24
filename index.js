@@ -42,7 +42,7 @@ console.log(makeDownwardStairs(downwardStairs));
 function makeLineSpaces (numSpaces){
 let numSpacesDisplay = "";
   for (let i=0; i<numSpaces; i++){
-    numSpacesDisplay += " ";
+    numSpacesDisplay += "_";
   }
   return numSpacesDisplay;
 }
@@ -65,3 +65,4 @@ function makeSpaceLine (numSpaces, numChars){
   return spaceLine;
 }
 console.log(makeSpaceLine(numSpaces, numChars));
+
