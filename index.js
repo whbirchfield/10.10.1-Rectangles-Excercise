@@ -66,3 +66,9 @@ function makeSpaceLine (numSpaces, numChars){
 }
 console.log(makeSpaceLine(numSpaces, numChars));
 
+function makeDiamond(height);{
+let triangleTop = "";
+for (let i = 0; i<height; i++){
+
+  }
+}
